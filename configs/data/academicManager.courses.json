@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "67b680ee778b3fa5a50d53be"
+  },
+  "name": "taller",
+  "description": "Area de desarrollo técnico",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:10:06.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:10:06.077Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b68154778b3fa5a50d53c4"
+  },
+  "name": "tic´s",
+  "description": "refuerzo técnico",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:11:48.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:14:17.304Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b6816b778b3fa5a50d53c8"
+  },
+  "name": "técnologia",
+  "description": "teoría de la carerra",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:12:11.187Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:12:11.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b681f9778b3fa5a50d53d8"
+  },
+  "name": "mate",
+  "description": "Ciencias exactas",
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-20T01:14:33.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:15:26.393Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b68307778b3fa5a50d53f8"
+  },
+  "name": "lengua",
+  "description": "Literatura",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:19:03.941Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:19:03.941Z"
+  }
+}]
