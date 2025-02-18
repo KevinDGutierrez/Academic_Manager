@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "67b682cf778b3fa5a50d53e6"
+  },
+  "student": {
+    "$oid": "67b67e94778b3fa5a50d53a5"
+  },
+  "email": "ppantuj@gmail.com",
+  "name": "tic´s",
+  "course": {
+    "$oid": "67b68154778b3fa5a50d53c4"
+  },
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:18:07.829Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:18:07.829Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b682ea778b3fa5a50d53ed"
+  },
+  "student": {
+    "$oid": "67b67e94778b3fa5a50d53a5"
+  },
+  "email": "ppantuj@gmail.com",
+  "name": "técnologia",
+  "course": {
+    "$oid": "67b6816b778b3fa5a50d53c8"
+  },
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:18:34.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:18:34.037Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b682f8778b3fa5a50d53f4"
+  },
+  "student": {
+    "$oid": "67b67e94778b3fa5a50d53a5"
+  },
+  "email": "ppantuj@gmail.com",
+  "name": "taller",
+  "course": {
+    "$oid": "67b680ee778b3fa5a50d53be"
+  },
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-20T01:18:48.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T01:18:48.242Z"
+  }
+}]
