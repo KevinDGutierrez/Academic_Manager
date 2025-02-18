@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "83a4c6e3-77dc-4349-8a6e-57ba4d0ffbd6",
+		"name": "Teachers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42402387"
+	},
+	"item": [
+		{
+			"name": "Register Teacher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Darwin\",\r\n    \"surname\": \"Coronado\",\r\n    \"username\": \"siMeEntienden\",\r\n    \"email\": \"dCoronado@gmail.com\",\r\n    \"password\": \"12345678\",\r\n    \"phone\": \"33333333\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Teacher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"cCortez\",\r\n    \"email\": \"ccortez@gmail.com\",\r\n    \"password\": \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Teachers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers?limite=10&desde=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers"
+					],
+					"query": [
+						{
+							"key": "limite",
+							"value": "10"
+						},
+						{
+							"key": "desde",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Teacher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers/findTeacher/67b67c59778b3fa5a50d5391",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers",
+						"findTeacher",
+						"67b67c59778b3fa5a50d5391"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Teacher",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I2N2MwNTc3OGIzZmE1YTUwZDUzOGIiLCJpYXQiOjE3NDAwMTI3MzUsImV4cCI6MTc0MDAxNjMzNX0.SCkf1lh9c0mq-T5JOD8HTx1lmICdYvcI658uUEtn9QQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Lui\",\r\n    \"surname\": \"Guillen\",\r\n    \"username\": \"lguillen\",\r\n    \"email\": \"lguillen@gmail.co\",\r\n    \"password\": \"12345678\",\r\n    \"phone\": \"26365496\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers/67b67c35778b3fa5a50d538e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers",
+						"67b67c35778b3fa5a50d538e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Teacher",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I2N2MwNTc3OGIzZmE1YTUwZDUzOGIiLCJpYXQiOjE3NDAwMTI3MzUsImV4cCI6MTc0MDAxNjMzNX0.SCkf1lh9c0mq-T5JOD8HTx1lmICdYvcI658uUEtn9QQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers/67b67c35778b3fa5a50d538e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers",
+						"67b67c35778b3fa5a50d538e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Password",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I2N2MwNTc3OGIzZmE1YTUwZDUzOGIiLCJpYXQiOjE3NDAwMTI3MzUsImV4cCI6MTc0MDAxNjMzNX0.SCkf1lh9c0mq-T5JOD8HTx1lmICdYvcI658uUEtn9QQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\": \"11111111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/academicManager/v1/teachers/updatePassword/67b67c59778b3fa5a50d5391",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"academicManager",
+						"v1",
+						"teachers",
+						"updatePassword",
+						"67b67c59778b3fa5a50d5391"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
